@@ -1,0 +1,189 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Thread3",
+            "request": "launch",
+            "mainClass": "Thread3",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Thread2",
+            "request": "launch",
+            "mainClass": "Thread2",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Thread1",
+            "request": "launch",
+            "mainClass": "Thread1",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "e",
+            "request": "launch",
+            "mainClass": "LambdaExpressions.e",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "L2",
+            "request": "launch",
+            "mainClass": "LambdaExpressions.L2",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "L1",
+            "request": "launch",
+            "mainClass": "LambdaExpressions.L1",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStringVowels",
+            "request": "launch",
+            "mainClass": "List.ReverseStringVowels",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "RemovePrime",
+            "request": "launch",
+            "mainClass": "List.RemovePrime",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "RemoveEven",
+            "request": "launch",
+            "mainClass": "List.RemoveEven",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "RotateMatrix90",
+            "request": "launch",
+            "mainClass": "Scaler.RotateMatrix90",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "TransposeMatrix",
+            "request": "launch",
+            "mainClass": "Scaler.TransposeMatrix",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Debuging",
+            "request": "launch",
+            "mainClass": "Debuging",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "ReverseInteger07",
+            "request": "launch",
+            "mainClass": "Programs.ReverseInteger07",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "DecimalToBinary",
+            "request": "launch",
+            "mainClass": "Programs.DecimalToBinary",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "BinaryToDecimal",
+            "request": "launch",
+            "mainClass": "Programs.BinaryToDecimal",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "Programs.HelloWorld",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "temp",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CopyStrings",
+            "request": "launch",
+            "mainClass": "CopyStrings",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStringWords",
+            "request": "launch",
+            "mainClass": "ReverseStringWords",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWordsPosition",
+            "request": "launch",
+            "mainClass": "ReverseWordsPosition",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "UToL_LTOUCase",
+            "request": "launch",
+            "mainClass": "UToL_LTOUCase",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "UpperToLowerCase",
+            "request": "launch",
+            "mainClass": "UpperToLowerCase",
+            "projectName": "iNeuron Java_afe949d"
+        }
+    ]
+}
