@@ -6,6 +6,167 @@
     "configurations": [
         {
             "type": "java",
+            "name": "First_Occurance",
+            "request": "launch",
+            "mainClass": "Arrays.First_Occurance",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Is_Sorted",
+            "request": "launch",
+            "mainClass": "Arrays.Is_Sorted",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Numbers.Factorial",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "Numbers.Armstrong",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Prime_Number",
+            "request": "launch",
+            "mainClass": "Numbers.Prime_Number",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "alf_Diamond_Pattern_Inverse",
+            "request": "launch",
+            "mainClass": "Patterns.alf_Diamond_Pattern_Inverse",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Half_Diamond_Pattern",
+            "request": "launch",
+            "mainClass": "Patterns.Half_Diamond_Pattern",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_Inverse_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Hollow_Inverse_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Inverse_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Inverse_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Hollow_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Triangle_Pattern",
+            "request": "launch",
+            "mainClass": "Patterns.Triangle_Pattern",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Inverse_Rhombus",
+            "request": "launch",
+            "mainClass": "Patterns.Inverse_Rhombus",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Rhombus",
+            "request": "launch",
+            "mainClass": "Patterns.Rhombus",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "Arrays.temp",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Modified_Binary",
+            "request": "launch",
+            "mainClass": "Arrays.Modified_Binary",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Distinct_Elements",
+            "request": "launch",
+            "mainClass": "Arrays.Distinct_Elements",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Trapped_Water",
+            "request": "launch",
+            "mainClass": "Arrays.Trapped_Water",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Maximum_Subarrays",
+            "request": "launch",
+            "mainClass": "Arrays.Maximum_Subarrays",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Print_Subarrays",
+            "request": "launch",
+            "mainClass": "Arrays.Print_Subarrays",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Array_Pairs",
+            "request": "launch",
+            "mainClass": "Arrays.Array_Pairs",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Reverse_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Reverse_Array",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Binary_Search",
+            "request": "launch",
+            "mainClass": "Arrays.Binary_Search",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "SelectionSort",
             "request": "launch",
             "mainClass": "SelectionSort",
