@@ -1,6 +1,6 @@
 package Arrays;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 public class Trapped_Water {
     public static void main(String[] args) {

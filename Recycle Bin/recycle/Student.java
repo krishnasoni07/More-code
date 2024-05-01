@@ -1,4 +1,4 @@
-
+package recycle;
 
 public class Student {
 

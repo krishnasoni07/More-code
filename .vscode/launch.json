@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Extract_Words",
+            "request": "launch",
+            "mainClass": "Strings.Extract_Words",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Implement_Atoi",
+            "request": "launch",
+            "mainClass": "Strings.Implement_Atoi",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Print_first_letter_of_every_word_in_the_string",
+            "request": "launch",
+            "mainClass": "Strings.Print_first_letter_of_every_word_in_the_string",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Check_For_Subsequence",
+            "request": "launch",
+            "mainClass": "Strings.Check_For_Subsequence",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "TUF",
+            "request": "launch",
+            "mainClass": "Strings.TUF",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Sum_of_numbers_in_string",
+            "request": "launch",
+            "mainClass": "Strings.Sum_of_numbers_in_string",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "Strings.temp",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Isogram_String",
+            "request": "launch",
+            "mainClass": "Strings.Isogram_String",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Anagram_of_String",
+            "request": "launch",
+            "mainClass": "Strings.Anagram_of_String",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Remove_common_characters_and_concatenate",
+            "request": "launch",
+            "mainClass": "Strings.Remove_common_characters_and_concatenate",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Repeated_Characters",
+            "request": "launch",
+            "mainClass": "Strings.Repeated_Characters",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Remove_Consecutive_Characters",
             "request": "launch",
             "mainClass": "Strings.Remove_Consecutive_Characters",
