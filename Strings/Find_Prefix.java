@@ -3,27 +3,33 @@ package Strings;
 public class Find_Prefix {
     public static void main(String args[]){
 
-        String[] str = new String[]{ "Cooler" , "Coolpad" , "Cool" };
+        // String[] str = new String[]{ "Cooler" , "Coolpad" , "Cool" };
+        String[] str = new String[]{ "g","geek" , "geeks" , "geeksforgeeks" };
 
-        String test = str[0];
-        String result = "";
+        System.out.println( getPrefix(str) );
 
-        for(int i = 0; i < test.length();i++){
+        // System.out.println(result);
+    }
+
+    static String getPrefix( String str[] ){
+        
+        String prefix = "";
+
+        for(int i = 0; i < str[0].length();i++){
 
             for(int j = 1; j < str.length;j++){
-
-                if( str[j].length() < i )
-                    if( str[j].charAt(i) == str[0].charAt(i) )
+                if( str[j].length() > i )
+                    if( str[0].charAt(i) == str[j].charAt(i) )
                         continue;
                     else{
-                        break;
+                        return prefix;
                     }
-                else break;
+                else
+                    return prefix;
             }
-            result += str[0].charAt(i);
-
+            prefix += str[0].charAt(i);
         }
 
-        System.out.println(result);
+        return prefix;
     }
 }

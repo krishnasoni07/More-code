@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Remove_Consecutive_Characters",
+            "request": "launch",
+            "mainClass": "Strings.Remove_Consecutive_Characters",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Uncommon_Characters",
+            "request": "launch",
+            "mainClass": "Strings.Uncommon_Characters",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Maximum_Occuring_Char",
+            "request": "launch",
+            "mainClass": "Strings.Maximum_Occuring_Char",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Shift_Negative",
+            "request": "launch",
+            "mainClass": "Arrays.Shift_Negative",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Counting_Sort",
+            "request": "launch",
+            "mainClass": "Sorting.Counting_Sort",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Selection_Sort",
+            "request": "launch",
+            "mainClass": "Sorting.Selection_Sort",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Get_Duplicate",
+            "request": "launch",
+            "mainClass": "Arrays.Get_Duplicate",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Reverse_Words_Position",
             "request": "launch",
             "mainClass": "Strings.Reverse_Words_Position",

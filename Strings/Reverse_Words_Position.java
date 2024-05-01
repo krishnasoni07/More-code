@@ -1,40 +1,51 @@
 package Strings;
+import java.util.ArrayList;
 
 public class Reverse_Words_Position {
     
 
     public static void main(String args[]){
 
-        System.out.println( reverseWords("dfi.like.this.program.very.much") );
+        System.out.println( reverseWords("i.like.this.program.very.much") );
 
     }
 
     static String reverseWords(String S) {
-        int start = S.length() - 1;
-        int end = S.length() - 1;
-        String result = "";
-        for (int i = S.length() - 1; i >= 0; i--) {
 
-            if (S.charAt(i) != '.' && i != 0)
-                start--;
-            else {
-                int j = start;
-                while (j <= end)
-                    result += S.charAt(j++);
-                end = --start;
+        ArrayList<String> result = new ArrayList<String>();
+        String temp = "";
+        
+        for(int i = S.length() - 1;i >= 0; i--){
 
-                if (i != 0)
-                    result += '.';
-                else{
-                    int k = start;
-                    while (k < end)
-                        result += S.charAt(k++);
-                }
-                    
+            if( S.charAt(i) == '.' ){
+                result.add( temp );
+            }
+            else{
+
+                temp += S.charAt(i);
 
             }
-        }
 
-        return result;
+        }
+        
+        return result.toString();
     }
 }
+
+
+// int end = S.length()-1;
+// for( int i = S.length() - 1; i >= 0;i-- ){
+
+//     if( S.charAt(i) != '.' && i != 0) continue;
+//     else{
+
+//         int temp = (i != 0) ? i + 1 : i;
+//         while( temp <= end ) result += S.charAt(temp++);
+//         i--;
+//         end = i;
+
+//         if( i != 0 )
+//         result += '.';
+//     }
+
+// }
