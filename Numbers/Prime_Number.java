@@ -10,6 +10,8 @@ public class Prime_Number {
         // int num = sc.nextInt();
 
         printPrime(1, 20);
+
+        sc.close();
         
     }
 

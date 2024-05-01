@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Reverse_Words_Position",
+            "request": "launch",
+            "mainClass": "Strings.Reverse_Words_Position",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Find_Prefix",
+            "request": "launch",
+            "mainClass": "Strings.Find_Prefix",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Check_Number_IsPower_2",
+            "request": "launch",
+            "mainClass": "BitManipulation.Check_Number_IsPower_2",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Set_Ith_Bit",
+            "request": "launch",
+            "mainClass": "BitManipulation.Set_Ith_Bit",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Get_Ith_Bit",
+            "request": "launch",
+            "mainClass": "BitManipulation.Get_Ith_Bit",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Ith_Bit",
+            "request": "launch",
+            "mainClass": "BitManipulation.Ith_Bit",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Even_Odd",
+            "request": "launch",
+            "mainClass": "BitManipulation.Even_Odd",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "String_Compression",
+            "request": "launch",
+            "mainClass": "Strings.String_Compression",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Strings.Palindrome",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Spiral_Matrix",
+            "request": "launch",
+            "mainClass": "Arrays.Spiral_Matrix",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Transpose_Matrix",
+            "request": "launch",
+            "mainClass": "Arrays.Transpose_Matrix",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "To_The_Power",
+            "request": "launch",
+            "mainClass": "Numbers.To_The_Power",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Last_Occurance",
+            "request": "launch",
+            "mainClass": "Arrays.Last_Occurance",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "First_Occurance",
             "request": "launch",
             "mainClass": "Arrays.First_Occurance",
