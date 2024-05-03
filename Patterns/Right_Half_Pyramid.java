@@ -12,6 +12,6 @@ public class Right_Half_Pyramid {
                 System.out.print("* ");
             System.out.println();
         }
-
+        sc.close();
     }
 }

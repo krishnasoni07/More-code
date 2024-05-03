@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Persons",
+            "request": "launch",
+            "mainClass": "OOPs.Persons",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Floyds_Traingle",
             "request": "launch",
             "mainClass": "Patterns.Floyds_Traingle",
