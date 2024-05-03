@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Floyds_Traingle",
+            "request": "launch",
+            "mainClass": "Patterns.Floyds_Traingle",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_Diamond_Pattern",
+            "request": "launch",
+            "mainClass": "Patterns.Hollow_Diamond_Pattern",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_Inverted_Full_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Hollow_Inverted_Full_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_Full_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Hollow_Full_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Hollow_Square",
+            "request": "launch",
+            "mainClass": "Patterns.Hollow_Square",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Hourglass_Pattern",
+            "request": "launch",
+            "mainClass": "Patterns.Hourglass_Pattern",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Diamond_Pattern",
+            "request": "launch",
+            "mainClass": "Patterns.Diamond_Pattern",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Rhombus_Pattern",
+            "request": "launch",
+            "mainClass": "Patterns.Rhombus_Pattern",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Inverted_Full_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Inverted_Full_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Inverted_Left_Half_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Inverted_Left_Half_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Inverted_Right_Half_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Inverted_Right_Half_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Full_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Full_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Left_Half_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Left_Half_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Right_Half_Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Right_Half_Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Merge_Two_Strings",
             "request": "launch",
             "mainClass": "Strings.Merge_Two_Strings",
