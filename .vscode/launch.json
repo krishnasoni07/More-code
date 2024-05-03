@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Merge_Two_Strings",
+            "request": "launch",
+            "mainClass": "Strings.Merge_Two_Strings",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Anagram_Palindrome",
+            "request": "launch",
+            "mainClass": "Strings.Anagram_Palindrome",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Extract_Words",
             "request": "launch",
             "mainClass": "Strings.Extract_Words",

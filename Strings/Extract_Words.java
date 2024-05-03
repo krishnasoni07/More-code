@@ -23,17 +23,16 @@ public class Extract_Words {
 
         }
 
-        int index = 1;
+        char index = '1';
         String result = "";
 
         for(int i = 0; i < arr.size();i++){
             for(int j = 0; j < arr.size();j++){
-                
-                String temp = arr.get(j);
-                
-                System.out.println(temp.charAt(temp.length() - 1));
-                if( (int)(temp.charAt(temp.length() - 1)) == index ){
-                    result += temp;
+
+                System.out.println( arr.get(j).charAt(arr.get(j).length() - 1) );
+
+                if( arr.get( j ).charAt(arr.get(j).length() - 1) == index ){
+                    result += arr.get(j);
                     index++;
                 }
             }
