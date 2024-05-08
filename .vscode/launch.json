@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Rotate_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Rotate_Array",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Counting_Sort1",
+            "request": "launch",
+            "mainClass": "Arrays.Counting_Sort1",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Flipping_Bits",
+            "request": "launch",
+            "mainClass": "Bits.Flipping_Bits",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Diagonal_Diffrences",
+            "request": "launch",
+            "mainClass": "Arrays.Diagonal_Diffrences",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Find_Duplicated_In_A_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Find_Duplicated_In_A_Array",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Find_Indexes_of_a_subarray_with_given_sum",
+            "request": "launch",
+            "mainClass": "Arrays.Find_Indexes_of_a_subarray_with_given_sum",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Merge_Sorted_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Merge_Sorted_Array",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Search_Insert_Position",
+            "request": "launch",
+            "mainClass": "Arrays.Search_Insert_Position",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Remove_Elements",
+            "request": "launch",
+            "mainClass": "Arrays.Remove_Elements",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Persons",
             "request": "launch",
             "mainClass": "OOPs.Persons",

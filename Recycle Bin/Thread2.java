@@ -1,4 +1,4 @@
-import javax.sound.midi.Soundbank;
+
 
 class MyThread2 extends Thread{
     public void run(){
@@ -10,11 +10,11 @@ class MyThread2 extends Thread{
     }
 }
 
-public class Thread2 implements Runnable{
+public class Thread2 extends Thread  {
 
     public void run(){}
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
         Runnable r = () -> {
             System.out.println("Interface's Lamba Exression");
         };
@@ -22,12 +22,9 @@ public class Thread2 implements Runnable{
         Thread t = new Thread( r );
         
         t.start();
-        Thread2.sleep(5000);
+        Thread2.sleep(2000);
 
         // Thread.start();
     }
 
-    public static void sleep( long l ){
-        System.out.println("Sleep is overridden");
-    }
 }

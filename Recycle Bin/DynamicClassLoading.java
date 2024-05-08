@@ -7,7 +7,6 @@ class Student {
 
     public Student() {
         System.out.println("Object Created");
-        ;
     }
 
     int Rollno = 27;
@@ -15,9 +14,9 @@ class Student {
 
 public class DynamicClassLoading {
     public static void main(String[] args) throws ClassNotFoundException,InstantiationException,IllegalAccessException {
-        String classToLoad = "Student";
+        // String classToLoad = "Student";
 
-        Class c = Class.forName(classToLoad);
+        // Class c = Class.forName(classToLoad);
 
         
         // Object obj = c.newInstance();

@@ -10,9 +10,9 @@ public class temp{
         System.out.println( new Object()  instanceof String );
         System.out.println( new Object() instanceof Object );
 
-        Class c = Class.forName(args[0]);
+        // Class c = Class.forName(args[0]);
 
-        System.out.println( c.isInstance( "String" ) );
+        // System.out.println( c.isInstance( "String" ) );
 
 
 
