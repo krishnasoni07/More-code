@@ -10,6 +10,7 @@ public class UToL_LTOUCase{
 		rstr = convert( str );
 
 		System.out.println(rstr);
+		sc.close();
 	}
 
 

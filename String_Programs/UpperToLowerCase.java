@@ -15,5 +15,6 @@ public class UpperToLowerCase{
 		}
 
 		System.out.println(rstr);
+		sc.close();
 	}
 }

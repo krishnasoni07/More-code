@@ -3,14 +3,14 @@ package Strings;
 public class Remove_Consecutive_Characters {
     public static void main(String args[]){
 
-        String str = "aaabaabbabaaddjjsoejss";
+        // String str = "aaabaabbabaaddjjsoejss";
 
-        String result = "";
-        char ch = ' ';
+        // String result = "";
+        // char ch = ' ';
 
         
 
-        System.out.println(result);
+        // System.out.println(result);
         
     }
 }

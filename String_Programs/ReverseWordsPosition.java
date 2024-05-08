@@ -5,6 +5,7 @@ public class ReverseWordsPosition{
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println( reverseWordsPosition( sc.nextLine() ) );
+		sc.close();
 	}
 
 	static String reverseWordsPosition( String str ){
