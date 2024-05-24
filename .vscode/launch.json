@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeleteElement",
+            "request": "launch",
+            "mainClass": "BriskMind.DeleteElement",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Diamond_Pattern",
+            "request": "launch",
+            "mainClass": "BriskMind.Diamond_Pattern",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Rotate_Array",
             "request": "launch",
             "mainClass": "Arrays.Rotate_Array",

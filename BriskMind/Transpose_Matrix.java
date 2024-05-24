@@ -1,4 +1,4 @@
-package Arrays;
+package BriskMind;
 
 public class Transpose_Matrix {
     public static void main(String args[]){
