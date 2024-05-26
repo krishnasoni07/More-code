@@ -13,19 +13,34 @@ public class Selection_Sort {
 
     }
 
-    public static void selectionSort(int arr[]){
+    public static void selectionSort(int[] arr){
 
-        for(int i = 0; i < arr.length -1;i++){
-            int index = i;
+        for(int i = 0; i < arr.length - 1;i++){
+            int currentElement = i;
 
-            for(int j = i + 1; j < arr.length;j++){
-                if( arr[j] < arr[index] ) index = j;
-            }
-
-            int temp = arr[index];
-            arr[index] = arr[i];
-            arr[i] = temp;
+            for(int j = i + 1; j < arr.length;j++)
+                if( arr[currentElement] > arr[j] ) currentElement = j;
+            if( currentElement == i ) continue;
+            int temp = arr[currentElement];
+            arr[currentElement] = arr[i];
+            arr[i] = temp; 
         }
+
+    }
+
+    public static void selectionSort1(int arr[]){
+
+    //     for(int i = 0; i < arr.length -1;i++){
+    //         int index = i;
+
+    //         for(int j = i + 1; j < arr.length;j++){
+    //             if( arr[j] < arr[index] ) index = j;
+    //         }
+
+    //         int temp = arr[index];
+    //         arr[index] = arr[i];
+    //         arr[i] = temp;
+    //     }
 
     }
 

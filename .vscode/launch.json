@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Transpose_Matrix",
+            "request": "launch",
+            "mainClass": "BriskMind.Transpose_Matrix",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "DeleteElement",
             "request": "launch",
             "mainClass": "BriskMind.DeleteElement",

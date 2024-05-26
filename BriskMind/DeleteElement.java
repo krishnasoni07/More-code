@@ -2,7 +2,7 @@ package BriskMind;
 
 public class DeleteElement {
     public static void main(String ...args){
-        int arr[] = new int[] {45,10,56,10,10,10};
+        int arr[] = new int[] {56,10,10,10,10,10};
 
         int lastIndex = arr.length - 1;
 
