@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleInterest",
+            "request": "launch",
+            "mainClass": "JavaPractice.SimpleInterest",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "JavaPractice.Factorial",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "IntegerToBinary",
+            "request": "launch",
+            "mainClass": "JavaPractice.IntegerToBinary",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "FindUnique",
+            "request": "launch",
+            "mainClass": "JavaPractice.FindUnique",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "SwapTwoNumbers",
+            "request": "launch",
+            "mainClass": "JavaPractice.SwapTwoNumbers",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "JavaPractice.AddTwoNumbers",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Hello_World",
+            "request": "launch",
+            "mainClass": "JavaPractice.Hello_World",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Transpose_Matrix",
             "request": "launch",
             "mainClass": "BriskMind.Transpose_Matrix",
