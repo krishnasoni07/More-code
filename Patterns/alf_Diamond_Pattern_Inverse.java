@@ -5,19 +5,18 @@ public class alf_Diamond_Pattern_Inverse {
         
         int rows = 7;
 
-        for( int i = 0; i < rows * 2 - 1; i++){
+        for(int i = 0; i < rows;i++){
+            for(int j = 1; j < rows * 2;j++){
 
-            int spaces = ( i < rows )? i : rows - i;
+                System.out.print( ( j >= rows - i && j <= rows + i )?"*":" " );
 
-            for(int j = 0; j < rows; j++){
-                if( j < rows - spaces - 1 )
-                    System.out.print(" ");
-                else   
-                    System.out.print("*");
+                // if( j >= rows - i && j <= rows + i )
+                //     System.out.print("*");
+                // else
+                //     System.out.print(" ");
 
             }
             System.out.println();
-
         }
 
 

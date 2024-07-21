@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "convet",
+            "request": "launch",
+            "mainClass": "convet",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Diagonal_Diffrences",
+            "request": "launch",
+            "mainClass": "JavaPractice.Arrays.Diagonal_Diffrences",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "JavaPractice.Patterns.Diamond",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Left_Triangle",
+            "request": "launch",
+            "mainClass": "JavaPractice.Patterns.Left_Triangle",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Pyramid",
+            "request": "launch",
+            "mainClass": "JavaPractice.Patterns.Pyramid",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "JavaPractice.Patterns.Triangle",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "SimpleInterest",
             "request": "launch",
             "mainClass": "JavaPractice.SimpleInterest",

@@ -13,7 +13,7 @@ public class Hourglass_Pattern{
                 else if( j <= rows - i - rows && i > rows)
                     System.out.print("   ");
                 else
-                    System.out.print("   *   ");
+                    System.out.print("  *  ");
             }
             System.out.println();
         }  
