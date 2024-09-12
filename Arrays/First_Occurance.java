@@ -5,7 +5,7 @@ public class First_Occurance {
 
         int arr[] = new int[] { 5,6,7,9,4,3,1,2,6,4 };
 
-        System.out.println( firstOccurance( arr , 0 , 100 ) );
+        System.out.println( firstOccurance( arr , 0 , 1 ) );
     }
 
     public static int firstOccurance( int arr[] , int i , int target){

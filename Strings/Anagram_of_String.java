@@ -18,4 +18,10 @@ public class Anagram_of_String {
             sum += arr[i];
         System.out.println(sum);
     }
+
+    public static int mainn(String args[]){
+        System.out.println("Hellp world");
+
+        return 0;
+    }
 }

@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Temp",
+            "request": "launch",
+            "mainClass": "Z.Temp",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Z.Prime",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Inverted",
+            "request": "launch",
+            "mainClass": "Z.Inverted",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Z.Triangle",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "convet",
             "request": "launch",
             "mainClass": "convet",

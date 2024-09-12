@@ -1,7 +1,7 @@
 package Arrays;
 
 public class Find_Duplicated_In_A_Array {
-    public static int main(String args[]){
+    public static void main(String args[]){
 
         int arr[] = new int[] { 2,3,1,2,3,4,6,6 };
         int rarr[] = new int[arr.length];
@@ -16,7 +16,7 @@ public class Find_Duplicated_In_A_Array {
             }
         }
         
-        return 0;
+        
     }
 
     public static void mainnn(String args[]){
