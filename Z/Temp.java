@@ -2,18 +2,12 @@ package Z;
 
 public class Temp {
     public static void main(String args[]){
+        String[] a = new String[4];
 
-        // Byte b = 12;
-        // Byte c = 12;
-        // Integer k = 12;
+        System.out.println( a.getClass().getName() );
+    }
 
-
-        // System.out.println( b == c );
-
-
-        byte k = 'a';
-
-        System.out.println(k);
+    public static void add( int a,int ...b ){
 
     }
 }

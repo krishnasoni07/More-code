@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Z.Reverse",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "Z.RotateArray",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "SMax",
+            "request": "launch",
+            "mainClass": "Z.SMax",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "Z.Armstrong",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Student_Challenge5",
+            "request": "launch",
+            "mainClass": "Z.Student_Challenge5",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Student_Challenge4",
+            "request": "launch",
+            "mainClass": "Z.Student_Challenge4",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Student_Challenge3",
+            "request": "launch",
+            "mainClass": "Z.Student_Challenge3",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Student_Challenge2",
+            "request": "launch",
+            "mainClass": "Z.Student_Challenge2",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "Student_Challenge",
+            "request": "launch",
+            "mainClass": "Z.Student_Challenge",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Temp",
             "request": "launch",
             "mainClass": "Z.Temp",
