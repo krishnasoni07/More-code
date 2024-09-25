@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GetOddCountElement",
+            "request": "launch",
+            "mainClass": "GFG.GetOddCountElement",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "getOddCountElement",
+            "request": "launch",
+            "mainClass": "GFG.getOddCountElement",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Reverse",
             "request": "launch",
             "mainClass": "Z.Reverse",
