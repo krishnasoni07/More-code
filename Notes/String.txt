@@ -1,0 +1,8 @@
+* String vs StringBuffer vs StringBuilder
+ * 
+ * String => we opt if the content is fixed and it wont change frequently
+ * 
+ * StringBuffer => we opt if the content changes frequently but ThreadSafety is required
+ * 
+ * StringBuilder => we opt if the content changes frequently but ThreadSafety is
+ * not required

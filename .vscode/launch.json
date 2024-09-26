@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Height_Checker_1051",
+            "request": "launch",
+            "mainClass": "Height_Checker_1051",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "GetOddCountElement",
             "request": "launch",
             "mainClass": "GFG.GetOddCountElement",
