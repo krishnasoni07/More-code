@@ -32,17 +32,60 @@ public class Temp{
 
         // System.out.println( new Student() );
 
-        StringBuffer s = new StringBuffer("");
+        // StringBuffer s = new StringBuffer("");
 
-        s.append(5.666);
-        s.insert(2000, 0);
+        // s.append(5.666);
+        // s.insert(2000, 0);
 
-        System.out.println(s);
+        // System.out.println(s);
 
-    }
+        // String s = "krisHna";
+
+        // String l = "";
+
+        // for(int i = 0; i < s.length();i++){
+
+        //     if( s.charAt(i) >= "a" && s.charAt(i) <= "z") 
+        //     l = l + (char)(s.charAt(i) - 32);
+        //     else
+        //         l += s.charAt(i);
+        // }
+        // System.out.println(l);
+
+
+        // String toReverse = "avaj2c";
+
+        // String reversed = "";
+
+        // for(int i = toReverse.length() - 1; i >= 0;i--)
+        //     reversed += toReverse.charAt(i);
+
+        // System.out.println(reversed);
+
+        // int data[] ={1,2,3} ;
+        // int key = 2014;
+        // int count=0;
+        // for(int e:data){
+        //     if(e!=key){
+        //         continue;
+        //         // count++;
+        //     }
+        // }
+        // System.out.println(count+" found");
+
+        // String[] arr = {"A","B","C","D"};
+        // for(int i = 0; i < arr.length;i++){
+        //     System.out.print(arr[i]+ " ");
+        //     if(arr[i].equals("C"))
+        //         continue;
+        //     System.out.println("Work done");
+        //     break;
+
+        // }
+        // writeln("krishna");
 
 }
-
+}
 /*
  * 
  * StringBuilder

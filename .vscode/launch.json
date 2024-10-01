@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MiniMaxSum",
+            "request": "launch",
+            "mainClass": "Hackerank3MonthChallenge.MiniMaxSum",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
+            "name": "W1PlusMinus",
+            "request": "launch",
+            "mainClass": "Hackerank3MonthChallenge.W1PlusMinus",
+            "projectName": "iNeuron Java_afe949d"
+        },
+        {
+            "type": "java",
             "name": "Height_Checker_1051",
             "request": "launch",
             "mainClass": "Height_Checker_1051",
