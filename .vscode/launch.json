@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TimeGlass",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.TimeGlass",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "RightAlignedFullPyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.RightAlignedFullPyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "LeftAlignedFullPyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.LeftAlignedFullPyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "FloydsTriangle",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.FloydsTriangle",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "HollowInvertedFullPyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.HollowInvertedFullPyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "HollowFullPyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.HollowFullPyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.Diamond",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "InvertedLeftHalfPyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.InvertedLeftHalfPyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "InvertedRightHalfPyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.InvertedRightHalfPyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "LeftHalfPyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.LeftHalfPyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "RightHalfPyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.RightHalfPyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
+            "name": "Pyramid",
+            "request": "launch",
+            "mainClass": "RegexSoftware.Patterns.Pyramid",
+            "projectName": "iNeuron Java_f1d1416a"
+        },
+        {
+            "type": "java",
             "name": "MiniMaxSum",
             "request": "launch",
             "mainClass": "Hackerank3MonthChallenge.MiniMaxSum",
