@@ -1,0 +1,115 @@
+1. For the code below, what should be the name of java file? 
+
+    public class HelloWorld {
+        public static void main(String [] args) {
+            System.out.println("Hello World!");
+        }
+    }
+
+A. Hello.java
+B. World.java
+C. HelloWorld.java
+D. helloworld.java
+
+Ans - ?
+    C - Why{
+        
+        If the Keyword public is used in the Class name which contains method main()
+        then it is compulsory to name the java file same as Class name.
+    }
+
+
+2. Does below code compile successfully?
+    public class Test {
+        public static void main(String [ ] args) {
+            System.out.println("Hello");;;;;;;;;
+        }
+    }
+A. yes
+B. no
+
+Ans - ?
+    A - Why{
+        In java ';' are just treated as whitespace or Ending of a Statement, 
+        for compiler these ';' are nothing.
+        The time when compiler compiles this code it will remove the extra ';'
+        and give the bytecode.
+    }
+
+3. What is the signature of special main method?
+    A. public static void main(String args)
+    B. public static void main(String[] a)
+    C. public static void main()
+    D. private static void main(String[] args)
+
+Ans - ?
+    B - Why{
+        In A = We are just giving a String Object as Parameter while Compiler needs
+                User can Give lot of Arguments, that's why String[] args is required.
+        In C = The main() isn't receiving any command Line argument.
+        In D = The main Method can't be of private in nature coz if it is
+                then JVM can't call it from Outside the class.
+    }
+
+4. What will be the result of compiling and executing Test class?
+
+Command - java Test good morning everyone
+    private class Test{
+        public static void main(String args[]) {
+            System.out.println(args[l]);
+        }
+    }
+A. compilation error
+B. good
+C. morning
+D. everyone
+
+Ans - ?
+    A - Why?{
+        A Class Which contains the main method can't be of private in Nature.
+        Coz if it is the JVM Can't Access ...
+    }
+
+
+5. For the class Test, which options, if used to replace 
+    /*INSERT*/, will print "Hurrah! I passed..." on to the console.
+
+    public class Test {
+        /*INSERT*/{
+            System.out.println("Hurrah! I passed...");
+        }
+    }
+
+A. static public void main(String[] args)
+B. public static void main(String[] a)
+C. static public void Main(String[] args)
+D. public void main(String[] args)
+E. protected static void main(String[] args)
+F. public void static main(String[] args)
+
+Ans - ?
+    A,B
+
+6. Suppose you have created a java file, "MyClass.java".
+    Which of the following commands will compile the java file?
+
+A. javac MyClass
+B. java MyClass
+C. javac MyClass.class
+D. javac MyClass.java
+E. java MyClass.java
+
+Ans - ?
+    D
+
+
+
+
+
+
+
+
+
+
+
+
