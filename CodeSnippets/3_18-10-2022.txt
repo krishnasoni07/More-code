@@ -1,0 +1,244 @@
+17 . Consider below code:
+
+    public class Test{
+
+        public static void main(String args[]){
+
+            char ch = 'Z';
+            long l = 100_00l;
+            int i = 9_2;
+            float f = 2.02f;
+            double d = 10_0.35d;
+
+            l = c + i;
+            f = c * l * i * f;
+            f = l + i + c;
+            i = (int)d;
+            f = (long)d;
+
+        } 
+
+    }
+
+Does above code compile successfully?
+A. Yes
+B. No
+
+Ans - ?
+    A. Why{
+        In "long l = 100_00l;" '_' is a Valid character as in JDK 1.7v for a
+            Literal we can give '_' also, Compiler will ignore that '_'
+            and then generate the .class file.
+        
+        In "l = c + i;" -> long = char + int -> int, and long Data type 
+            can easily(Implicitly) store a int type value in it.
+        
+        In "f = c * l * i * f;" -> float = char * long * int * float; ->
+            float, the final or Highest Result will be an Float type.
+            and Float data type can Implicitly store Float type value.
+
+        In "f = l + i + c;" The Highest data typeis long which is easily
+            Compatiable with float data type.
+
+        In  i = (int)d;--> Both are type casted Explicitly,so no Error.
+            f = (long)d;|
+    }
+
+18 . What will be the output of the following code ?
+
+    public class Test{
+        public static void main(String args[]){
+
+            int a = 20;
+            int var = --a * a++ + a-- - --a;
+            System.out.println("a = " + a);
+            System.out.println("var = " + var);
+
+        }
+    }
+
+A.  a = 18
+    var = 363;
+
+B.  a = 363
+    var = 363
+
+C. Compilation Error
+
+D.  a = 25
+    var = 363
+
+Ans - ?
+    A - Why{
+        int a = 20;
+        int var = --a * a++ + a-- - --a;
+                   19 * 19  +  20 - 18  = 363
+    }
+
+19 . What will be the output of the Following code?
+
+    public class Test{
+        public static void main(String args[]){
+            int i = 5;
+            if( i++ < 6 )
+                System.out.println(i++);
+        }
+    }
+
+A. 5
+B. 6
+C. No output
+D. 7
+
+Ans - ?
+    B - Why{
+        if( i++ < 6 ) == if( 5++ < 6 ) == True
+        System.out.println( 6++ );
+    }
+
+20. What will be the output of the Following code?
+
+    int x = 4;      //Line - 1
+    int y = 4++;    //Line - 2
+    System.out.println(x);
+    System.out.println(y);
+
+A.  Line - 1 CompileTimeError
+B.  Line - 2 CompileTimeError
+C.  4
+    5
+D.  5
+    5
+
+Ans - ?
+    B - Why{
+        int y = 4++;, here the increment is happening on Literal value
+            Which are constant in nature, we can't change them.
+            That's Why its a CompileTimeError.
+    }
+
+21. What Will be the output of the Following code?
+
+    int x = 4;          //Line - 1
+    int y = ++(x++);    //Line - 2
+    System.out.println( x );
+    System.out.println( y );
+
+A.  Line - 1 CompileTimeError
+B.  Line - 2 CompileTimeError
+C.  4
+    5
+D.  5
+    5
+
+Ans. - ?
+    B - Why{
+        ++(x++); == ++(4), the increment operation can't be done on direct
+            Literals. that's why its an CompileTimeError.
+    }
+
+22. What will be the output of the Following code?
+
+    boolean b = true;   //Line - 1
+    b++;                //Line - 2
+    System.out.println(b);
+
+A. line-nl Compile Time Error
+B. line-n2 Compile Time Error
+C. false
+D. true
+E. None of the above
+
+Ans. - ?  
+    B - Why{
+        Increment Operation can't be perform on boolean values.
+        it could be performed only on Integral,Floating,Character
+    }
+
+23. Will the Code Compile?
+
+    int b,c,d;
+    itn a = b = c = d = 10;
+
+A. yes;
+B. no;
+
+Ans. - ?
+    A - Why{
+        This process of Assignement is known as Chained Assignement
+        or Composite Assignement or Short hand Assignement Operator.
+    }
+
+24. Will the code compile?
+
+    int a = b = c = d = 20;
+    System.out.println(a);
+
+A. yes;
+B. no;
+
+Ans. - ?
+    B - Why{
+            For Chained Assignement the variables must be declared First.
+            and here only variable a is declared rest are just mentioned
+            not Declared.
+        }
+
+25. What will be the output of the Following code?
+
+    byte c = (10 > 20) ? 30 : 40;
+    byte d = (10 < 20) ? 30 : 40;
+    System.out.println(c);
+    System.out.println(d);
+
+A.  30
+    40
+B.  40
+    30
+C.  10
+    20  
+D.  20
+    10
+E.  CompileTimeError
+
+Ans. ?
+    B - Why{
+
+        Wherever Literals are Involved, The Compiler will perform the
+        Operations.so in this case the compiler will solve the whole
+        equation.
+
+    }
+
+26. What will be the output of the Following code?
+
+    int a = 10;
+    int b = 20;
+    byte c = (a > b) ? 30 : 40;
+    byte d = (a < b) ? 30 : 40;
+    System.out.println(c);
+    System.out.println(d);
+
+A.  30
+    40
+B.  40
+    30
+C.  10
+    20  
+D.  20
+    10
+E.  CompileTimeError
+
+Ans. ?
+    E - Why{
+        
+    }
+
+
+
+
+
+
+
+
+biblofile studycenter.in

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            width: 100%;
+            /* border: 2px solid green; */
+            padding: 2px;
+        }
+
+        label {
+            padding: 5px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        form {
+            width: 100%;
+            margin: auto;
+        }
+
+        input {
+            margin-left: 5px;
+        }
+
+        .div1 {
+            width: 47%;
+            display: inline-block;
+            border-right: 2px solid grey;
+            padding: 10px;
+        }
+
+        .div2 {
+            width: 47%;
+            display: inline-block;
+        }
+
+        .div1 label {
+            font-size: 15px;
+        }
+
+        .div2 label {
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div style="margin: auto; width: 60%;">
+        <h1 style="text-align: center;">General Admission Registraion</h1>
+        <form>
+
+            <div class="div1">
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+
+                <br>
+
+                <div>
+
+                    <label for="mailId">Email</label>
+                    <input type="text" id="mailId">
+                </div>
+
+                <br>
+                <div>
+                    <label for="Gender">Gender</label>
+                    <input type="radio" name="gen" id="Gender"> <label for="Gender">Male</label>
+                    <input type="radio" name="gen" id="Gender"><label for="Gender">Female</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="phoneNo">Phone </label>
+                    <input type="number" placeholder="Mob.No">
+                </div>
+
+                <br>
+
+                <div>
+
+                    <label for="emerCon">Emergency Contact</label>
+                    <input type="number">
+                </div>
+
+                <br>
+                <div>
+
+                    <label for="park">Do you require Parking?</label>
+                    <input type="radio" name="parking" id="park"><label for="park">Yes</label>
+                    <input type="radio" name="parking" id="park"><label for="park">No</label>
+                </div>
+
+                <br>
+                <div>
+
+                    <label for="roomPref">What is Your Room Preference?</label>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" name="Preference?" id="roomPref"> <label for="roomPref">Single Room</label>
+                </div>
+                <div>
+                    <input type="radio" name="Preference?" id="roomPref"> <label for="roomPref">Shared Room</label>
+                </div>
+                <div>
+                    <input type="radio" name="Preference?" id="roomPref"> <label for="roomPref">No Room Needed</label>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="div2">
+
+                <div>
+                    <label for="restrictionList">Do you have any dietary restrictions?</label>
+
+                    <div style="margin-left: 20px;">
+                        <div>
+                            <input type="radio" name="restrictions?"> <label for="">None</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="restrictions?"> <label for="">Vegetarian</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="restrictions?"> <label for="">Glutten Allergy</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="restrictions?"> <label for="">Lactose Allergy</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="restrictions?"> <label for="">Nut Allergy</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="restrictions?"> <label for="">Shelfish Allergy</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="avtivity">What activities will you attend?</label>
+                    <div style="margin-left: 20px;">
+                        <div>
+                            <input type="radio" name="activities" id="activity">
+                            <label for="activity">Awards Gala Dinner</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="activities" id="activity">
+                            <label for="activity">Luncheon</label>
+                        </div>
+                        <div><input type="radio" name="activities" id="activity">
+                            <label for="activity">Town Hall</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <label for="">Do you want to see the list of other <br>attendees and their profiles on the <br>
+                        official event app?
+                    </label>
+                    <br>
+                    <div style="margin-left: 20px;">
+                        <input type="radio" name="yn"><label for="">Yes</label>
+                        <input type="radio" name="yn"><label for="">No</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
