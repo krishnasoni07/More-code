@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #07377E;
+}
+
+/* Nav bar Section Start */
+
+#nav{
+    background: #CA0606;
+    height: 8vh;
+    width: 100vw;
+}
+
+/* Nav bar Section end */
+
+
+#form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+    /* background: red; */
+}
+
+#quiz-body{
+
+    height: 65vh;
+    width: 50vw;
+    background: white;
+    padding: 20px;
+}
+
+#quizes{
+    /* background: green; */
+    
+}
+
